@@ -1,0 +1,178 @@
+/* Estilos generales */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+/* Estilos para el encabezado */
+header {
+	background-color: blue;
+	color: white;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h1 {
+	margin: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: white;
+}
+
+section {
+	padding: 20px;
+	margin: 20px 0;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table th, table td {
+	border: 1px solid white;
+	padding: 5px;
+}
+
+/* Estilos para el pie de página */
+footer {
+	background-color:white;
+	color: grey;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* Estilos para la sección multimedia */
+video {
+	display: block;
+	margin: 20px auto;
+	max-width: 100%;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+  }  
+
+img {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/*Estilos para los usbtitulos*/
+figure {
+    position: relative;
+}
+  
+figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+}
+  
+
+/* Estilos para los formularios */
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-top: 10px;
+}
+
+input, textarea {
+	margin-bottom: 20px;
+}
+
+input[type="submit"] {
+	background-color: blue;
+	color: white;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: blue;
+}
+
+/*Madrid*/
+#madrid {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+  
+#madrid li {
+    margin: 0 10px;
+}
+  
+#madrid li a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: grey;
+}
+  
+#madrid li a:hover {
+    background-color: white;
+}
+  
+
+/*Mapa*/
+.mapa {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
